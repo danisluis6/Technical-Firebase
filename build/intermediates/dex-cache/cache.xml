@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_c01fb7ad4358491aef64ca6cb610b0e953548b9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_4a0657873f6847b63ede5f6205472761c5b1808d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_c9e17e1904478dbecb59d284c5be98e37632af1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_dfc15c6c7e07c4a46aedacc39f90fc0921e5de77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_02fedf4684475e49effaa98f49a6f5ed04b704df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_ab15dac2377a4ff0fd7195587dfa5055941c2862.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_c2add4331dd66626976319ad37d94f4a22d0ff86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="347727253ff93fb581bbe96587d797e2b1090ca0">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_9623d65aa72855b5d7fd201aabdb9415e68a8c74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_e6620fdd905a5f5b795857cc3bcd44720e7fa5f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_ea60d2dc367a47d4fb9eab4b3c84fcf324ecba8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_3f024bbb8242300afa6ff73784e5b7c574706dc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_64207eb96f7384deb315c06f587e01f2302c6d3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_e434dbdb96ecbf6913648f048a02ccb5e18f0598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_b94ea4abc56ada32acf361551c67048370804438.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_9bb64d96406067bd8babfd70aca60acca8415d34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_6062e3ead81d244c62c59f7d99bb000e6306a000.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_b3faa81c8fc24996388bddb77f52685fb1579b2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_bdcef272f4bc1aebc80ef550152c6138964fcee3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_82a23163bfb87d47340ca4aa6de7b60336269b36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_809dcc73a45a002a7a8d5ce83aa089a3ae9bab10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bce02609ad6e5292624074b2124eb99bba052c39">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/instant-run_169f0683af8c16a754a99e969f02d93b770382c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_fcc091b77327ff71aa228f0f8f23df0cb58f63d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_0ad2dc83491c37a2db265710c065e1f69a6fd2cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_1fb99c20f607dafdad76c67d934bd2b0fd109738.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_13f6e0e784da20ce599945bfb7b1f7b779725342.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/enclaveit/Desktop/DemoFireBaseChatting/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_314c8ccd17c7e54980bd96d1ff25cf71cc500384.jar" />
+    </item>
+
+</items>

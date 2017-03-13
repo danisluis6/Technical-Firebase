@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.enclaveit.demofirebasechatting.ActivityChat">
+    <ListView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"/>
+    <EditText
+        android:id="@+id/text"
+        android:hint="Enter message"
+        android:padding="12dp"
+        android:layout_below="@id/message"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:id="@+id/btnchat"
+        android:layout_below="@id/message"
+        android:layout_toRightOf="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_chat"/>
+</RelativeLayout>

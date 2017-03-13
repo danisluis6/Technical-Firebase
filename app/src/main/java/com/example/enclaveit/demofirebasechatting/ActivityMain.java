@@ -2,6 +2,8 @@ package com.example.enclaveit.demofirebasechatting;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -38,11 +40,16 @@ public class ActivityMain extends AppCompatActivity {
 
     private String name;
     private DatabaseReference root = FirebaseDatabase.getInstance().getReference().getRoot();
+    private final int REQUEST_PERMISSION_PHONE_STATE=1;
 
     private static String TAG = "ActivityMain";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        /**
+         * Check permission
+         */
+
         setContentView(R.layout.activity_main);
 
         btnstart = (Button) findViewById(R.id.start);
@@ -137,5 +144,19 @@ public class ActivityMain extends AppCompatActivity {
             valid = false;
         }
         return valid;
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case 1: {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                } else {
+                    Toast.makeText(ActivityMain.this, "Permission denied on this device!", Toast.LENGTH_SHORT).show();
+                }
+                return;
+            }
+        }
     }
 }

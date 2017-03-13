@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "839985855809",
+    "firebase_url": "https://school-mate-5b636.firebaseio.com",
+    "project_id": "school-mate-5b636",
+    "storage_bucket": "school-mate-5b636.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839985855809:android:fa649335adcb9bc3",
+        "android_client_info": {
+          "package_name": "com.example.enclaveit.demofirebasechatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839985855809-db23q4dpu93pj2pi4p8r4cqjidi30sdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpz7h68r0T1Kmk1aZs66deVoNGXewVNGs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -52,6 +52,7 @@ public class ActivityMain extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+
         btnstart = (Button) findViewById(R.id.start);
         edtname = (EditText) findViewById(R.id.name);
         list_name = (ListView) findViewById(R.id.list_name);
@@ -62,16 +63,25 @@ public class ActivityMain extends AppCompatActivity {
 
         Toast.makeText(this,"Welcome you!",Toast.LENGTH_LONG).show();
 
-        requestUsername();
+        /**
+         * We initialize name for chatting
+         * Method 1:requestUsername();
+         * Method 2: assign default value
+         */
+        name = "Nguyen Van Vuong";
+
+        /**
+         * Include two progresss
+         * Progress 1: Update to service
+         * Progress 2: View in listview
+         */
 
         btnstart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Map<String, Object> map = new HashMap<String, Object>();
                 map.put(edtname.getText().toString(), "");
                 root.updateChildren(map);
-
             }
         });
 
@@ -114,36 +124,6 @@ public class ActivityMain extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    public boolean requestUsername(){
-        boolean valid = true;
-        try{
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("Enter name:");
-
-            final EditText input_field = new EditText(this);
-            builder.setView(input_field);
-            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    name = input_field.getText().toString();
-                }
-            });
-
-            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    dialogInterface.cancel();
-                    requestUsername();
-                }
-            });
-
-            builder.show();
-        }catch (Exception ex){
-            valid = false;
-        }
-        return valid;
     }
 
     @Override

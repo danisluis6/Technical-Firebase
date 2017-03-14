@@ -291,21 +291,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/enclaveit/Desktop/Technical-Firebase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4357e9f0c78c846ef964ec92b90461e445803273">
+        <dex dex="/home/enclaveit/Desktop/Technical-Firebase/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_0ac4b6fd01f6ba14b34c12cef2cb35a46d99f081.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/enclaveit/Desktop/Technical-Firebase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
         <dex dex="/home/enclaveit/Desktop/Technical-Firebase/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.4.0_309da62f67b0f4a95728361b3cae44230790187a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/enclaveit/Desktop/Technical-Firebase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="56bc915b85edb975bad03337e9a79d21ba5203f0">
-        <dex dex="/home/enclaveit/Desktop/Technical-Firebase/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_0ac4b6fd01f6ba14b34c12cef2cb35a46d99f081.jar" />
     </item>
     <item
         is-multidex="false"

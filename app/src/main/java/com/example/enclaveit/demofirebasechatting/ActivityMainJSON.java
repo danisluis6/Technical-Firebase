@@ -1,7 +1,9 @@
 package com.example.enclaveit.demofirebasechatting;
 
 import android.app.ProgressDialog;
+import android.content.pm.PackageManager;
 import android.os.AsyncTask;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,7 +37,7 @@ public class ActivityMainJSON extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_json);
 
         contactList = new ArrayList<>();
 
@@ -151,6 +153,20 @@ public class ActivityMainJSON extends AppCompatActivity {
                     R.id.email, R.id.mobile});
 
             lv.setAdapter(adapter);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case 1: {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                } else {
+                    Toast.makeText(ActivityMainJSON.this, "Permission denied on this device!", Toast.LENGTH_SHORT).show();
+                }
+                return;
+            }
         }
     }
 }

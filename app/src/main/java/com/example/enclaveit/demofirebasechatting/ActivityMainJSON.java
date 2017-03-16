@@ -33,7 +33,6 @@ public class ActivityMainJSON extends AppCompatActivity {
     // Downloading & Parsing the JSON
     private static String url = "https://lorence.000webhostapp.com/contacts.json";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -118,17 +117,13 @@ public class ActivityMainJSON extends AppCompatActivity {
                                     .show();
                         }
                     });
-
                 }
             } else {
                 Log.e(TAG, "Couldn't get json from server.");
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Toast.makeText(getApplicationContext(),
-                                "Couldn't get json from server. Check LogCat for possible errors!",
-                                Toast.LENGTH_LONG)
-                                .show();
+                        Toast.makeText(getApplicationContext(), "Couldn't get json from server. Check LogCat for possible errors!", Toast.LENGTH_LONG).show();
                     }
                 });
 
@@ -148,10 +143,7 @@ public class ActivityMainJSON extends AppCompatActivity {
              * */
             ListAdapter adapter = new SimpleAdapter(
                     ActivityMainJSON.this, contactList,
-                    R.layout.list_item, new String[]{"name", "email",
-                    "mobile"}, new int[]{R.id.name,
-                    R.id.email, R.id.mobile});
-
+                    R.layout.list_item, new String[]{"name", "email", "mobile"}, new int[]{R.id.name, R.id.email, R.id.mobile});
             lv.setAdapter(adapter);
         }
     }
@@ -161,7 +153,6 @@ public class ActivityMainJSON extends AppCompatActivity {
         switch (requestCode) {
             case 1: {
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-
                 } else {
                     Toast.makeText(ActivityMainJSON.this, "Permission denied on this device!", Toast.LENGTH_SHORT).show();
                 }

@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "839985855809",
-    "firebase_url": "https://school-mate-5b636.firebaseio.com",
-    "project_id": "school-mate-5b636",
-    "storage_bucket": "school-mate-5b636.appspot.com"
+    "project_number": "176190337088",
+    "firebase_url": "https://versiononechat.firebaseio.com",
+    "project_id": "versiononechat",
+    "storage_bucket": "versiononechat.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:839985855809:android:fa649335adcb9bc3",
+        "mobilesdk_app_id": "1:176190337088:android:fa649335adcb9bc3",
         "android_client_info": {
           "package_name": "com.example.enclaveit.demofirebasechatting"
         }
       },
       "oauth_client": [
         {
-          "client_id": "839985855809-db23q4dpu93pj2pi4p8r4cqjidi30sdh.apps.googleusercontent.com",
+          "client_id": "176190337088-9huomdv68rsc2bjs5rsb1i8mbsig21o7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBpz7h68r0T1Kmk1aZs66deVoNGXewVNGs"
+          "current_key": "AIzaSyBEg8BAwuUArLsHHxSQJgb18s58fVYlFs4"
         }
       ],
       "services": {

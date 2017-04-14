@@ -10,32 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.enclaveit.demofirebasechatting.ActivityMain">
     <ListView
-        android:id="@+id/list_name"
+        android:id="@+id/lvTeacher"
         android:layout_width="match_parent"
-        android:layout_marginBottom="10dp"
-        android:layout_height="300dp"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"/>
-    <EditText
-        android:id="@+id/name"
-        android:padding="10dp"
-        android:layout_below="@id/list_name"
-        android:hint="Enter your name?"
-        android:layout_marginBottom="10dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"/>
-
-    <Button
-        android:id="@+id/start"
-        android:text="Let 's start"
-        android:textSize="32dp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:background="@color/colorAccent"
-        android:layout_below="@id/name"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 </RelativeLayout>
